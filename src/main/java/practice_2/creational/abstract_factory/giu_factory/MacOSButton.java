@@ -1,0 +1,9 @@
+package practice_2.creational.abstract_factory.giu_factory;
+
+public class MacOSButton implements Button{
+    @Override
+    public void paint() {
+        System.out.println("Painting MacOS Button");
+
+    }
+}
